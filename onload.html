@@ -1,0 +1,25 @@
+<Doctype html>
+    <html>
+    <head>  
+    <style>
+       body{
+
+       background-color: rgb(238, 179, 238);
+       }
+    
+    </style>
+    </head>
+    <body>  
+        <h1 id="Demo"></h1>
+
+   <p>Assign an "onload" event to an iframe element.</p>
+
+   <iframe onload="myFunction()" src="/default.asp"></iframe>
+
+        <script>
+          function myFunction(){
+            document.getElementById("Demo").innerHTML="Hello World.";
+            }
+        </script>
+    </body>
+</html>
